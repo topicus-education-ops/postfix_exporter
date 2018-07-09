@@ -13,6 +13,7 @@ node() {
 
 		dockerfile.publish {
 			image = img
+			tags = [ "0.1.2" ]
 		}
 	}
 	
