@@ -7,7 +7,6 @@ node() {
 		dockerfile.validate { }
 
 		def img = dockerfile.build {
-			registry = 'docker.topicusonderwijs.nl'
 			name = 'postfix/postfix_exporter'
 		}
 
