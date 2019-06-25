@@ -17,8 +17,6 @@ node() {
 		}
 	}
 	
-	gitlist()
-	
 	notify {
 		emailNotificationRecipients = 'Sverre.Boschman@topicus.nl'
 	}
